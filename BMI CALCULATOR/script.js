@@ -4,7 +4,7 @@ function calculateBMI() {
     const height = parseFloat(document.getElementById('height').value) / 100; // Convert cm to m
     const age = parseInt(document.getElementById('age').value);
     const isMale = document.getElementById('male').checked;
-    
+
     // Validate inputs
     if (isNaN(weight) || isNaN(height) || isNaN(age) || height <= 0 || weight <= 0) {
         alert('Please enter valid values for weight, height, and age.');
