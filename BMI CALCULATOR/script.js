@@ -1,13 +1,32 @@
 function calculateBMI() {
     // Get input values
     const weight = parseFloat(document.getElementById('weight').value);
-    const height = parseFloat(document.getElementById('height').value) / 100; // Convert cm to m
+    const heightCm = parseFloat(document.getElementById('height').value);
     const age = parseInt(document.getElementById('age').value);
     const isMale = document.getElementById('male').checked;
-
+    
     // Validate inputs
-    if (isNaN(weight) || isNaN(height) || isNaN(age) || height <= 0 || weight <= 0) {
-        alert('Please enter valid values for weight, height, and age.');
+    if (isNaN(weight) || isNaN(heightCm) || isNaN(age)) {
+        alert('Please enter valid numeric values for weight, height, and age.');
+        return;
+    }
+    
+    // Check if values are within reasonable ranges
+    if (weight < 10 || weight > 200) {
+        alert('Please enter a weight between 10kg and 200kg.');
+        return;
+    }
+    
+    if (heightCm < 50 || heightCm > 250) {
+        alert('Please enter a height between 50cm and 250cm.');
+        return;
+    }
+    
+    // Convert height to meters for BMI calculation
+    const height = heightCm / 100;
+    
+    if (age < 2 || age > 100) {
+        alert('Please enter an age between 2 and 100 years.');
         return;
     }
     
