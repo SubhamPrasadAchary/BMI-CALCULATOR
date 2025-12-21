@@ -4,7 +4,8 @@
   "description": "A simple BMI Calculator web application",
   "main": "script.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "dev": "live-server"
   },
   "keywords": [
     "bmi",
