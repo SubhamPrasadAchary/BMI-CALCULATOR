@@ -12,3 +12,4 @@ Because tracking your health shouldn’t be complicated — it should be instant
 <img width="1528" height="691" alt="image" src="https://github.com/user-attachments/assets/f8b43cd1-6e3e-4a99-b88f-1bf6e3a75e94" />
 
 <img width="1460" height="699" alt="image" src="https://github.com/user-attachments/assets/c3f25f2d-43bb-465a-8a13-d1b4bb95c9fe" />
+ 
