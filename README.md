@@ -3,7 +3,7 @@
 This super-simple tool lets you just enter your height & weight, and BOOM — it instantly shows your Body Mass Index (BMI)! ⚡📊
 
 Not only do you get the number… you also get to know where you stand:
-🥣 Underweight | ✅ Normal | ⚠️ Overweight | 🚨 Obese 
+🥣 Underweight | ✅ Normal | ⚠️ Overweight | 🚨 Obese  
 
 Built with a clean, minimal & user-friendly interface 🧼🧾 so you can check your health in seconds — anywhere, anytime ⏱️📱
 
